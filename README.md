@@ -1,25 +1,19 @@
-Milestone 33 - Implementing User Search - Frontend
-Overview
-Milestone 33 focuses on the frontend implementation of the user search functionality. This feature allows users to search for other users through a search input field and view search results on the frontend.
+# Instagram Clone
 
-Topics Covered in Milestone 33
-User Search Integration: Developed the frontend components and logic to enable users to search for other users and display the search results.
+An Instagram clone built with React for the frontend, Sequelize for the backend ORM, and Supabase for authentication and storage.
 
+## Features
 
+- User authentication (Sign up, Login) 
+- Post creation with image upload
+- Like and comment functionality
+- View feed of posts from users you follow
+- User profile with post history
+- Responsive design for mobile and desktop
 
-Frontend Test Cases
-The following test cases have to be implemented and have to get passed:
+## Tech Stack
 
-[REQ078]_should_render_input_field_correctly
-Verifies that the search input field is rendered correctly on the frontend.
-[REQ079]_should_render_search_results_correctly
-Ensures that the search results are displayed correctly based on the search query.
-
-Running Frontend Test Cases
-To run the frontend test cases:
-`npm run test:serve`
-
-f:
-usersearch
-topnav
-feed.js
+- **Frontend**: React, JavaScript, CSS
+- **Backend**: Node.js, Express, Sequelize (for database interactions)
+- **Database**: PostgreSQL (managed with Supabase)
+- **Authentication & Storage**: Supabase
