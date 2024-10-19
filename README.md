@@ -1,7 +1,5 @@
 # Instagram Clone
 
-An Instagram clone built with React for the frontend, Sequelize for the backend ORM, and Supabase for authentication and storage.
-
 ## Features
 
 - User authentication (Sign up, Login) 
